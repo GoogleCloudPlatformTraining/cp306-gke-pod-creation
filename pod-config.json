@@ -1,0 +1,20 @@
+{
+  apiVersion: ”v1beta1”,
+
+  “id”: ””,
+  “kind”: “Pod”,
+  “labels”: {“”:””},
+  “desiredState”: {
+    “manifest”: {
+      “version”: “v1beta1”,
+      “containers”: [
+        {
+          “name”: “”,
+          “image”: “”,
+          “cpu”: 100,
+          “ports”: [ { “containerPort”: 80, “name”: “public-port” }  ]
+        {
+      ]
+    }
+  }
+}

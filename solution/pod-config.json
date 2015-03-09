@@ -1,0 +1,21 @@
+{
+  apiVersion: ”v1beta1”,
+
+  “id”: ”web-pod”,
+  “kind”: “Pod”,
+  “labels”: {“aaa”:”bbb”},
+  “desiredState”: {
+    “manifest”: {
+      “version”: “v1beta1”,
+      "id": "web-pod",
+      “containers”: [
+        {
+          “name”: “webserver-container”,
+          “image”: “dockerfile/nginx”,
+          “cpu”: 100,
+          “ports”: [ { “containerPort”: 80, “name”: “public-port”}  ]
+        {
+      ]
+    }
+  }
+}
