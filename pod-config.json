@@ -3,20 +3,17 @@
   "apiVersion": "v1beta3",
   "metadata": {
     "name": "",
-    "creationTimestamp": null,
     "labels": {
       "": ""
     }
   },
   "spec": {
-    "volumes": null,
     "containers": [
       {
         "name": "",
         "image": "",
         "ports": [
           {
-            "name": "public-port",
             "containerPort": 80,
             "protocol": "TCP"
           }
@@ -25,14 +22,8 @@
           "limits": {
             "cpu": "100m"
           }
-        },
-        "terminationMessagePath": "/dev/termination-log",
-        "imagePullPolicy": "IfNotPresent",
-        "capabilities": {}
+        }
       }
-    ],
-    "restartPolicy": "Always",
-    "dnsPolicy": "ClusterFirst"
-  },
-  "status": {}
+    ]
+  }
 }
