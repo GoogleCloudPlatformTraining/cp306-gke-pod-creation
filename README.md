@@ -1,2 +1,2 @@
 # cp300-gke-pod-creation
-For GKE module 5 Hands-on training section
+Used in the CP300 course - For GKE pod creation lab.
