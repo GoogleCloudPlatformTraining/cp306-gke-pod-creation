@@ -1,2 +1,2 @@
-# cp300-gke-pod-creation
-Used in the CP300 course - For GKE pod creation lab.
+# cp306-gke-pod-creation
+Used in the CP306 course - For GKE pod creation lab.
